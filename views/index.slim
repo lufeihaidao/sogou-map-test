@@ -1,0 +1,27 @@
+doctype 5
+html lang="zh-CN"
+  head
+    meta http-equiv="content-type" content="text/html; charset=UTF-8"
+    meta name="viewport" content="initial-scale=1.0, user-scalable=no"
+
+    title local data test
+    script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+    script type="text/javascript" src="http://api.go2map.com/maps/js/api_v2.5.1.js"
+    /script type="text/javascript" src="js/baidu-api.js"
+    /script type="text/javascript" src="js/google-api.js"
+    script type="text/javascript" src="custom.js"
+    script type="text/javascript" src="sougou_api.js"
+    link media="all" rel="stylesheet" href="style.css" type="text/css"
+  body
+    p 我是测试！ 
+    button[onclick='showrandompos()'] random position
+    select id="tactic" name="sogou_tactic"
+      option value="1" selected="selected" 时间最短
+      option value="0" 距离最短
+      option value="2" 不经过高速
+    button[onclick='showmap()'] show map
+    #display 
+    #backdisp 
+    .clear 
+    #map 
+    #result

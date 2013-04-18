@@ -1,0 +1,26 @@
+html{height:100%}
+body{height:100%;margin:0px;padding:0px;background-color:#eee}
+.clear{
+  clear: both;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.nodisplay{
+  display: none;
+}
+#map{
+  margin: 20px 20px 0px 0px;
+  float: left;
+  height: 70%;
+  width: 70%;
+}
+#result{
+  margin-top: 20px;
+  float: left;
+  height: 70%;
+  width: 20%;
+}
