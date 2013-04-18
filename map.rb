@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 %w[rubygems sinatra slim json net/http].each{ |gem| require gem }
+set :bind, '0.0.0.0'
 get('/'){ slim :index }
 post '/local_data' do
   #@local_data = JSON.parse(params[:localdata])
